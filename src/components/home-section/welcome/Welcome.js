@@ -29,11 +29,13 @@ function Welcome(props) {
                 image1: item.getAttribute('src'),
                 image2: nextImg,
                 displacementImage: distortion,
-                hover: false
+                hover: false,
+                // imagesRatio: 0.8
             })
             animates.push(animation)
         })
         welcomeImgs.forEach(e => e.remove())
+
 
         let currItem = 0
 
@@ -52,7 +54,7 @@ function Welcome(props) {
             }, 3000);
         }
 
-        setInterval(autoImageSlide, 3000);
+        setInterval(autoImageSlide, 5000);
     }, [])
 
     return (
