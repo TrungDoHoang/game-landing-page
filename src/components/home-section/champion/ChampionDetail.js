@@ -14,7 +14,7 @@ function ChampionDetail(props) {
         document.querySelector(`#champion-detail-${props.id}`).classList.remove('active')
         iframeRef.current.setAttribute('src', '')
 
-        const img = document.querySelector(`#champion-img-${props.id}`)
+        const img = document.querySelector(`#champ-img-${props.id}`)
         img.style.opacity = 0
         setTimeout(() => {
             img.remove()
@@ -25,7 +25,7 @@ function ChampionDetail(props) {
     return (
         <div
             id={`champion-detail-${props.id}`}
-            className={`champion-detail bg-image overlay ${props.active && 'active'}`}
+            className={`champion-detail bg-image overlay ${props.active ? 'active': ''}`}
             style={{backgroundImage: `url(${item.bgLarge})`}}
         >
             <div className="champion-detail__content">
@@ -36,7 +36,7 @@ function ChampionDetail(props) {
                 <div className="story">
                     {item.description}
                 </div>
-                <span>Champion spotlight</span>
+                <span className="spotlight">Champion spotlight</span>
 
                 <div className="video">
                     <iframe 

@@ -30,7 +30,7 @@ function ChampionCard(props) {
 
         const videoURL = 'https://www.youtube.com/embed/'+ props.item.video
         document.querySelector(`#champion-detail-${props.id} iframe`).setAttribute('src', videoURL)
-        document.querySelector(`#champion-detail-${props.id} iframe`).classList.add('active')
+        document.querySelector(`#champion-detail-${props.id}`).classList.add('active')
 
     }
     return (
