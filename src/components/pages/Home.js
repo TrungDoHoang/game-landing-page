@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import SwiperCore, { EffectFade, Mousewheel, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
-import { Champion, ChampionDetail, Trailer, Welcome } from '../home-section';
+import { Champion, ChampionDetail, Credit, Trailer, Welcome } from '../home-section';
 import { championsData } from '../../assets/dummy'
 
 SwiperCore.use([EffectFade, Mousewheel, Pagination])
@@ -27,9 +27,12 @@ function Home() {
                 <SwiperSlide>
                     {({ isActive }) => <Trailer isActive={isActive} />}
                 </SwiperSlide>
+                <SwiperSlide>
+                    {({ isActive }) => <Credit isActive={isActive} />}
+                </SwiperSlide>
             </Swiper>
             {
-                championsData.map((item, index) =>(
+                championsData.map((item, index) => (
                     <ChampionDetail
                         id={index}
                         item={item}
@@ -37,6 +40,9 @@ function Home() {
                     />
                 ))
             }
+            <div className="scroll">
+                <span>Kéo xuống để xem hiệu ứng</span>
+            </div>
         </>
     )
 }
