@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/game-landing-page/static/css/main.4b664139.chunk.css",
-    "main.js": "/game-landing-page/static/js/main.45a667c4.chunk.js",
-    "main.js.map": "/game-landing-page/static/js/main.45a667c4.chunk.js.map",
+    "main.css": "/game-landing-page/static/css/main.c8706b0e.chunk.css",
+    "main.js": "/game-landing-page/static/js/main.8d3dd730.chunk.js",
+    "main.js.map": "/game-landing-page/static/js/main.8d3dd730.chunk.js.map",
     "runtime-main.js": "/game-landing-page/static/js/runtime-main.4a721b41.js",
     "runtime-main.js.map": "/game-landing-page/static/js/runtime-main.4a721b41.js.map",
     "static/css/2.f76337b1.chunk.css": "/game-landing-page/static/css/2.f76337b1.chunk.css",
-    "static/js/2.19f19eef.chunk.js": "/game-landing-page/static/js/2.19f19eef.chunk.js",
-    "static/js/2.19f19eef.chunk.js.map": "/game-landing-page/static/js/2.19f19eef.chunk.js.map",
+    "static/js/2.bf8f239a.chunk.js": "/game-landing-page/static/js/2.bf8f239a.chunk.js",
+    "static/js/2.bf8f239a.chunk.js.map": "/game-landing-page/static/js/2.bf8f239a.chunk.js.map",
     "index.html": "/game-landing-page/index.html",
     "static/css/2.f76337b1.chunk.css.map": "/game-landing-page/static/css/2.f76337b1.chunk.css.map",
-    "static/css/main.4b664139.chunk.css.map": "/game-landing-page/static/css/main.4b664139.chunk.css.map",
-    "static/js/2.19f19eef.chunk.js.LICENSE.txt": "/game-landing-page/static/js/2.19f19eef.chunk.js.LICENSE.txt",
+    "static/css/main.c8706b0e.chunk.css.map": "/game-landing-page/static/css/main.c8706b0e.chunk.css.map",
+    "static/js/2.bf8f239a.chunk.js.LICENSE.txt": "/game-landing-page/static/js/2.bf8f239a.chunk.js.LICENSE.txt",
     "static/media/Champion_Ahri_HP.1fe5df5f.png": "/game-landing-page/static/media/Champion_Ahri_HP.1fe5df5f.png",
     "static/media/Champion_ashe_HP.6cbcde46.png": "/game-landing-page/static/media/Champion_ashe_HP.6cbcde46.png",
     "static/media/Champion_garen_HP.bec7537e.png": "/game-landing-page/static/media/Champion_garen_HP.bec7537e.png",
@@ -27,6 +27,7 @@
     "static/media/bg-1.e27aafe2.jpg": "/game-landing-page/static/media/bg-1.e27aafe2.jpg",
     "static/media/bg-2.7cd86f63.jpg": "/game-landing-page/static/media/bg-2.7cd86f63.jpg",
     "static/media/bg-3.457b99fe.jpg": "/game-landing-page/static/media/bg-3.457b99fe.jpg",
+    "static/media/bg-video.89552ba1.mp4": "/game-landing-page/static/media/bg-video.89552ba1.mp4",
     "static/media/distortion.1ded8f85.png": "/game-landing-page/static/media/distortion.1ded8f85.png",
     "static/media/fortune-bg-large.d63e23ba.jpg": "/game-landing-page/static/media/fortune-bg-large.d63e23ba.jpg",
     "static/media/fortune-bg.2c94edb8.jpg": "/game-landing-page/static/media/fortune-bg.2c94edb8.jpg",
@@ -44,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.4a721b41.js",
     "static/css/2.f76337b1.chunk.css",
-    "static/js/2.19f19eef.chunk.js",
-    "static/css/main.4b664139.chunk.css",
-    "static/js/main.45a667c4.chunk.js"
+    "static/js/2.bf8f239a.chunk.js",
+    "static/css/main.c8706b0e.chunk.css",
+    "static/js/main.8d3dd730.chunk.js"
   ]
 }
