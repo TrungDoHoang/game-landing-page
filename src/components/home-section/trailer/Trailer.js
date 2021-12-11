@@ -21,8 +21,8 @@ function Trailer(props) {
             </div>
             <div className="trailer__content__info">
                 <div className="title">
-                    <span>Competed With</span>
-                    <h2 className="main-color">Friends</h2>
+                    <span>Tham gia cùng với</span>
+                    <h2 className="main-color">Bạn bè</h2>
                 </div>
                 <div className="video">
                     <iframe 
